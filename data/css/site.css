@@ -1,0 +1,46 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+	margin-left: -0.1%;
+}
+.sectie1 {
+    Background: url('../image/berg.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 102%;
+	height: 105%;
+	margin-left:  -0.7%;
+	margin-top: -1.75%;
+	z-index: 10;
+	position: absolute;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.sample-text {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+/* custom font */
+
+  @font-face {
+    font-family: 'Minnie';
+    src: url('Fonts/Minnie2.eot');
+    src: url('Fonts/Minnie2.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Minnie2.ttf') format('truetype'),
+         url('Fonts/Minnie2.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+p,h1,h2,h3,h4,h5,h6 {
+	color: #d4ffff;
+	font-size: 350%;
+	Font-family: Minnie;
+	text-shadow:
+    -1.2px -1.2px 0 #000,  
+     1.2px -1.2px 0 #000,
+    -1.2px 1.2px 0 #000,
+     1.2px 1.2px 0 #000;
+}
